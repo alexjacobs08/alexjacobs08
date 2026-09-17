@@ -29,9 +29,9 @@
 </tr>
 <tr>
 <td align="center" valign="top" width="25%">
-  <a href="https://github.com/alexjacobs08/artlens"><img src="assets/icons/artlens.png" width="128" alt="A pixel art magnifying glass over a framed painting on an easel"></a><br>
-  <b><a href="https://github.com/alexjacobs08/artlens">artlens</a></b><br>
-  <sub>Fine-art reverse image search, OpenCLIP + FastAPI.</sub>
+  <a href="https://art.alex-jacobs.com/"><img src="assets/icons/artlens.png" width="128" alt="A pixel art magnifying glass over a framed painting on an easel"></a><br>
+  <b><a href="https://art.alex-jacobs.com/">artlens</a></b><br>
+  <sub>Find your image's kindred works in art history.</sub>
 </td>
 <td align="center" valign="top" width="25%">
   <a href="https://alexjacobs08.github.io/poople-bench/"><img src="assets/icons/poople-bench.png" width="128" alt="A pixel art step ladder whose rungs are letter tiles"></a><br>
