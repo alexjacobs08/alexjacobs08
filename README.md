@@ -1,7 +1,6 @@
 <img src="assets/banner.png" alt="Pixel art taco factory: a conveyor belt carries flat tortilla discs through a press that folds them into shells, hoppers that fill them, a machine that wraps them in paper, and a worker packing the wrapped tacos into a shipping box." width="100%">
 
-**Putting machine learning into production, then writing up exactly how it broke.**
-Receipts at **[alex-jacobs.com](https://alex-jacobs.com/)**.
+**Pushing to prod. Receipts at [alex-jacobs.com](https://alex-jacobs.com/).**
 
 <br>
 
