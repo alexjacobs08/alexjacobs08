@@ -12,18 +12,18 @@
   <sub>8 models, 40 exact tasks. 83% → 99% with tools.</sub>
 </td>
 <td align="center" valign="top" width="25%">
-  <a href="https://github.com/alexjacobs08/beatingBERT"><img src="assets/icons/beatingBERT.png" width="128" alt="A pixel art small robot standing over a much larger toppled robot"></a><br>
-  <b><a href="https://github.com/alexjacobs08/beatingBERT">beatingBERT</a></b><br>
+  <a href="https://alex-jacobs.com/posts/beatingbert/"><img src="assets/icons/beatingBERT.png" width="128" alt="A pixel art small robot standing over a much larger toppled robot"></a><br>
+  <b><a href="https://alex-jacobs.com/posts/beatingbert/">beatingBERT</a></b><br>
   <sub>Fine-tuned encoders measured against small LLMs.</sub>
 </td>
 <td align="center" valign="top" width="25%">
-  <a href="https://github.com/alexjacobs08/datasetFactory"><img src="assets/icons/datasetFactory.png" width="128" alt="A pixel art machine extruding a stack of punched cards"></a><br>
-  <b><a href="https://github.com/alexjacobs08/datasetFactory">datasetFactory</a></b><br>
-  <sub>Synthetic datasets for classification and eval.</sub>
+  <a href="https://alexjacobs08.github.io/datasetFactory/"><img src="assets/icons/datasetFactory.png" width="128" alt="A pixel art machine extruding a stack of punched cards"></a><br>
+  <b><a href="https://alexjacobs08.github.io/datasetFactory/">datasetFactory</a></b><br>
+  <sub>Scaled synthetic datasets for RAG evaluation.</sub>
 </td>
 <td align="center" valign="top" width="25%">
-  <a href="https://github.com/alexjacobs08/design-picker"><img src="assets/icons/design-picker.png" width="128" alt="A pixel art fan of paint colour swatches"></a><br>
-  <b><a href="https://github.com/alexjacobs08/design-picker">design-picker</a></b><br>
+  <a href="https://alexjacobs08.github.io/design-picker/"><img src="assets/icons/design-picker.png" width="128" alt="A pixel art fan of paint colour swatches"></a><br>
+  <b><a href="https://alexjacobs08.github.io/design-picker/">design-picker</a></b><br>
   <sub>Pick a design language, export a brief.</sub>
 </td>
 </tr>
@@ -34,18 +34,18 @@
   <sub>Fine-art reverse image search, OpenCLIP + FastAPI.</sub>
 </td>
 <td align="center" valign="top" width="25%">
-  <a href="https://github.com/alexjacobs08/poople-bench"><img src="assets/icons/poople-bench.png" width="128" alt="A pixel art step ladder whose rungs are letter tiles"></a><br>
-  <b><a href="https://github.com/alexjacobs08/poople-bench">poople-bench</a></b><br>
+  <a href="https://alexjacobs08.github.io/poople-bench/"><img src="assets/icons/poople-bench.png" width="128" alt="A pixel art step ladder whose rungs are letter tiles"></a><br>
+  <b><a href="https://alexjacobs08.github.io/poople-bench/">poople-bench</a></b><br>
   <sub>Daily LLM benchmark against provable optimal.</sub>
 </td>
 <td align="center" valign="top" width="25%">
-  <a href="https://github.com/alexjacobs08/s3verless"><img src="assets/icons/s3verless.png" width="128" alt="A pixel art bucket with a web page standing in it"></a><br>
-  <b><a href="https://github.com/alexjacobs08/s3verless">s3verless</a></b><br>
-  <sub>Static sites on S3, without the rest of it.</sub>
+  <a href="https://s3verless.org/"><img src="assets/icons/s3verless.png" width="128" alt="A pixel art bucket with a web page standing in it"></a><br>
+  <b><a href="https://s3verless.org/">s3verless</a></b><br>
+  <sub>Your database is a bucket now. Pydantic model in, REST API out.</sub>
 </td>
 <td align="center" valign="top" width="25%">
-  <a href="https://github.com/alexjacobs08/fastApi-Integration-tests"><img src="assets/icons/fastApi-Integration-tests.png" width="128" alt="A pixel art test tube in a rack beside a green tick"></a><br>
-  <b><a href="https://github.com/alexjacobs08/fastApi-Integration-tests">fastApi-tests</a></b><br>
+  <a href="https://alex-jacobs.com/posts/fastapitests/"><img src="assets/icons/fastApi-Integration-tests.png" width="128" alt="A pixel art test tube in a rack beside a green tick"></a><br>
+  <b><a href="https://alex-jacobs.com/posts/fastapitests/">fastApi-tests</a></b><br>
   <sub>Auth, MongoDB, S3 and APIs mocked properly.</sub>
 </td>
 </tr>
