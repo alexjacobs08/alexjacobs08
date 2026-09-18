@@ -4,49 +4,14 @@
 
 <br>
 
-<table>
-<tr>
-<td align="center" valign="top" width="25%">
-  <a href="https://github.com/alexjacobs08/tinybench"><img src="assets/icons/tinybench.png" width="128" alt="A pixel art workbench hung with hand tools"></a><br>
-  <b><a href="https://github.com/alexjacobs08/tinybench">tinybench</a></b><br>
-  <sub>8 models, 40 exact tasks. 83% → 99% with tools.</sub>
-</td>
-<td align="center" valign="top" width="25%">
-  <a href="https://alex-jacobs.com/posts/beatingbert/"><img src="assets/icons/beatingBERT.png" width="128" alt="A pixel art small robot standing over a much larger toppled robot"></a><br>
-  <b><a href="https://alex-jacobs.com/posts/beatingbert/">beatingBERT</a></b><br>
-  <sub>Fine-tuned encoders measured against small LLMs.</sub>
-</td>
-<td align="center" valign="top" width="25%">
-  <a href="https://alexjacobs08.github.io/datasetFactory/"><img src="assets/icons/datasetFactory.png" width="128" alt="A pixel art machine extruding a stack of punched cards"></a><br>
-  <b><a href="https://alexjacobs08.github.io/datasetFactory/">datasetFactory</a></b><br>
-  <sub>Scaled synthetic datasets for RAG evaluation.</sub>
-</td>
-<td align="center" valign="top" width="25%">
-  <a href="https://alexjacobs08.github.io/design-picker/"><img src="assets/icons/design-picker.png" width="128" alt="A pixel art fan of paint colour swatches"></a><br>
-  <b><a href="https://alexjacobs08.github.io/design-picker/">design-picker</a></b><br>
-  <sub>Pick a design language, export a brief.</sub>
-</td>
-</tr>
-<tr>
-<td align="center" valign="top" width="25%">
-  <a href="https://art.alex-jacobs.com/"><img src="assets/icons/artlens.png" width="128" alt="A pixel art magnifying glass over a framed painting on an easel"></a><br>
-  <b><a href="https://art.alex-jacobs.com/">artlens</a></b><br>
-  <sub>Find your image's kindred works in art history.</sub>
-</td>
-<td align="center" valign="top" width="25%">
-  <a href="https://alexjacobs08.github.io/poople-bench/"><img src="assets/icons/poople-bench.png" width="128" alt="A pixel art step ladder whose rungs are letter tiles"></a><br>
-  <b><a href="https://alexjacobs08.github.io/poople-bench/">poople-bench</a></b><br>
-  <sub>Daily LLM benchmark against provable optimal.</sub>
-</td>
-<td align="center" valign="top" width="25%">
-  <a href="https://s3verless.org/"><img src="assets/icons/s3verless.png" width="128" alt="A pixel art bucket with a web page standing in it"></a><br>
-  <b><a href="https://s3verless.org/">s3verless</a></b><br>
-  <sub>Your database is a bucket now. Pydantic model in, REST API out.</sub>
-</td>
-<td align="center" valign="top" width="25%">
-  <a href="https://alex-jacobs.com/posts/fastapitests/"><img src="assets/icons/fastApi-Integration-tests.png" width="128" alt="A pixel art test tube in a rack beside a green tick"></a><br>
-  <b><a href="https://alex-jacobs.com/posts/fastapitests/">fastApi-tests</a></b><br>
-  <sub>Auth, MongoDB, S3 and APIs mocked properly.</sub>
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://github.com/alexjacobs08/tinybench"><img src="assets/cards/tinybench.png" width="144" alt="tinybench: 40 exact tasks, 8 LLMs. 83% to 99% with tools."></a>
+  <a href="https://alex-jacobs.com/posts/beatingbert/"><img src="assets/cards/beatingBERT.png" width="144" alt="beatingBERT: fine-tuned encoders vs small LLMs, measured."></a>
+  <a href="https://alexjacobs08.github.io/datasetFactory/"><img src="assets/cards/datasetFactory.png" width="144" alt="datasetFactory: synthetic datasets for RAG evaluation."></a>
+  <a href="https://alexjacobs08.github.io/design-picker/"><img src="assets/cards/design-picker.png" width="144" alt="design-picker: pick a design language, export a brief."></a>
+  <br>
+  <a href="https://art.alex-jacobs.com/"><img src="assets/cards/artlens.png" width="144" alt="artlens: find your image's kin in art history."></a>
+  <a href="https://alexjacobs08.github.io/poople-bench/"><img src="assets/cards/poople-bench.png" width="144" alt="poople-bench: daily LLM benchmark vs provable optimal."></a>
+  <a href="https://s3verless.org/"><img src="assets/cards/s3verless.png" width="144" alt="s3verless: your database is a bucket now."></a>
+  <a href="https://alex-jacobs.com/posts/fastapitests/"><img src="assets/cards/fastApi-Integration-tests.png" width="144" alt="fastApi-tests: auth, Mongo, S3 and APIs mocked properly."></a>
+</p>

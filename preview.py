@@ -62,6 +62,13 @@ PAGE = """<!doctype html>
   .main {{ flex: 1 1 var(--main); min-width: 0; max-width: var(--main); }}
   .markdown-body {{ padding: var(--pad); border: 1px solid var(--line); border-radius: 6px; }}
   @media (max-width: 1100px) {{ .rail {{ display: none; }} .page {{ max-width: var(--main); }} }}
+  /* On a phone GitHub drops the sidebar and gives the README ~308px (measured at a
+     390px viewport). Match it, or a layout that scrolls sideways there looks fine here. */
+  @media (max-width: 600px) {{
+    .page {{ padding: 16px 16px 64px; }}
+    .markdown-body {{ padding: 24px 25px; }}
+    header .meta {{ display: none; }}
+  }}
 </style>
 <header>
   <span class="who">alexjacobs08/README.md</span>
