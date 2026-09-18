@@ -1,4 +1,4 @@
-<img src="assets/banner.png" alt="Pixel art taco factory: a conveyor belt carries flat tortilla discs through a press that folds them into shells, hoppers that fill them, a machine that wraps them in paper, and a worker packing the wrapped tacos into a shipping box." width="100%">
+<img src="assets/banner.gif" width="100%" alt="Animated pixel art taco factory: a conveyor belt carries flat tortilla discs into a press that folds them into shells, hoppers drop filling in, a machine wraps each one in paper, and the wrapped tacos are packed into a box at the end of the line.">
 
 **Pushing to prod. Receipts at [alex-jacobs.com](https://alex-jacobs.com/).**
 

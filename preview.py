@@ -126,7 +126,15 @@ def build():
     md = SRC.read_text()
     html = render(md)
     stamp = time.strftime("%H:%M:%S")
-    DST.write_text(PAGE.format(body=html, stamp=stamp))
+    page = PAGE.format(body=html, stamp=stamp)
+    DST.write_text(page)
+    # This has twice written a page built from a stale copy of PAGE while the file on
+    # disk was current, and silently stale chrome is worse than a crash: read it back
+    # and confirm it is what we just built.
+    got = DST.read_text()
+    if got != page:
+        raise SystemExit(f"{DST.name} does not match what was just rendered — "
+                         f"wrote {len(page)} bytes, read back {len(got)}. Re-run.")
     return stamp
 
 
