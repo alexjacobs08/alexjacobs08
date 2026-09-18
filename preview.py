@@ -12,6 +12,7 @@ subset all behave as they will on the profile.
 import argparse
 import hashlib
 import json
+import re
 import subprocess
 import sys
 import time
@@ -126,6 +127,13 @@ def build():
     md = SRC.read_text()
     html = render(md)
     stamp = time.strftime("%H:%M:%S")
+    # Local assets keep their filename across rebuilds, so the browser happily serves
+    # a stale banner from cache. Stamp each one with its mtime.
+    def bust(m):
+        f = ROOT / m.group(2)
+        v = int(f.stat().st_mtime) if f.exists() else 0
+        return f'{m.group(1)}{m.group(2)}?v={v}"'
+    html = re.sub(r'((?:src|href)=")(assets/[^"?]+)"', bust, html)
     page = PAGE.format(body=html, stamp=stamp)
     DST.write_text(page)
     # This has twice written a page built from a stale copy of PAGE while the file on
@@ -150,11 +158,15 @@ def main():
         subprocess.run(["open", str(DST)])
 
     if a.watch:
-        print("watching README.md — ctrl-c to stop")
-        last = hashlib.md5(SRC.read_bytes()).hexdigest()
+        print("watching README.md and assets/ — ctrl-c to stop")
+        def state():
+            assets = sorted((ROOT / "assets").rglob("*"))
+            return hashlib.md5(SRC.read_bytes() + "".join(
+                f"{a}{a.stat().st_mtime}" for a in assets if a.is_file()).encode()).hexdigest()
+        last = state()
         while True:
             time.sleep(0.5)
-            cur = hashlib.md5(SRC.read_bytes()).hexdigest()
+            cur = state()
             if cur != last:
                 last = cur
                 print(f"[{build()}] rebuilt")
